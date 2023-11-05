@@ -5,9 +5,10 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 export const CartWidget = () => {
     const [count, setCount] = useState(0);
     return (
-        <>
-            <FontAwesomeIcon icon={faShoppingCart} />
+        <>     
+            <FontAwesomeIcon icon={faShoppingCart} style={{}
+} />
             <span>({count})</span>
-        </>
+             </>
     );
 };

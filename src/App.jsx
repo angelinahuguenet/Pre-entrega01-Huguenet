@@ -7,8 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer/>
-
+      <ContainerBox greeting={"Bienvenidos a Orange Perfumería"} />
     </>
   )
 }
